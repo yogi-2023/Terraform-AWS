@@ -25,13 +25,13 @@ provider "aws" {
   region = "us-east-1"
 
   assume_role {
-    role_arn     = "arn:aws:iam::123456789012:role/TerraformAssumeRole"  # Replace with your IAM Role ARN
+    role_arn     = "arn:aws:iam::XXXXXX:role/TerraformAssumeRole"  # Replace with your IAM Role ARN
     session_name = "terraform-session"
   }
 }
 
 resource "aws_instance" "myec2" {
-  ami           = "ami-00c39f71452c08778"   # Replace with valid AMI ID
+  ami           = "ami-XXXXXX"   # Replace with valid AMI ID
   instance_type = "t2.micro"
 
   tags = {
