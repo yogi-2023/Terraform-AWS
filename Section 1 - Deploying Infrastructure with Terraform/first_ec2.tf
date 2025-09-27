@@ -1,4 +1,6 @@
-'''
+### first_ec2.tf
+
+```sh
 provider "aws" {
   region     = "us-east-1"
   access_key = "XXXXXXX"
@@ -11,4 +13,4 @@ resource "aws_instance" "Dev" {
     Name = "DEV-EC2"
   }
 }
-'''
+```
