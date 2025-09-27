@@ -26,6 +26,6 @@ The provider block defines which AWS region Terraform will deploy resources to.
 
 You can authenticate using:
 
-AWS access key & secret key (not recommended for production)
+## AWS access key & secret key (not recommended for production)
 
-AWS IAM Role with Assume Role (recommended for security)
+## AWS IAM Role with Assume Role (recommended for security)
