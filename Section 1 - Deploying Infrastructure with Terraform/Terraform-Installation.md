@@ -16,14 +16,35 @@ Terraform is HashiCorp's infrastructure as code tool. It lets you define resourc
 4. You can commit your configurations to version control to safely collaborate on infrastructure.
 ================================================================================
 
+## 🚀 Installing Terraform on Amazon Linux
+
+## 📌 Step 1: Install Required Packages
+
 **01. sudo yum install -y yum-utils shadow-utils**
+- yum-utils: Provides useful package management tools
+- shadow-utils: Provides essential user and group utilities required for Terraform installation
+
+## 📌 Step 2: Add HashiCorp Repository
 
 **02. sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo**
+- This command adds the official HashiCorp repo so you can install Terraform and keep it updated via yum.
+
+## 📌 Step 3: Install Terraform
 
 **03. sudo yum -y install terraform**
+- Installs the latest version of Terraform
+- After installation, verify it.
+```sh
+
+terraform -version
+
+```
+
+## 📌 Step 4: Create a Working Directory
 
 **04. mkdir awscloud**
+- Creates a new folder named awscloud
+- This is where you will store your Terraform configuration files (.tf files).
 
-**05. vim aws.tf**
 
 ================================================================================
