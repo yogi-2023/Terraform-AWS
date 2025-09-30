@@ -3,6 +3,20 @@
 This section contains Terraform code to provision and manage **AWS infrastructure**.  
 It is designed to demonstrate how to deploy cloud resources using **Infrastructure as Code (IaC)** with Terraform.  
 
+# 🔑 Key Features
+
+- **Infrastructure as Code (IaC): Define infrastructure in .tf files instead of manual clicks.
+
+- **Multi-Cloud Support**: Works with AWS, Azure, GCP, Kubernetes, and hundreds of other providers.
+
+- **Idempotency**: Running the same code multiple times gives the same result (no duplication).
+
+- **Execution Plans**: Terraform shows what it will change before applying (terraform plan).
+
+- **State Management**: Keeps track of your resources in a state file (terraform.tfstate).
+
+- **Reusable Modules**: Package your code into reusable components (e.g., vpc, ec2).
+
 ## 📌 AWS Services Used in This Environment
 
 - **Amazon VPC**  
