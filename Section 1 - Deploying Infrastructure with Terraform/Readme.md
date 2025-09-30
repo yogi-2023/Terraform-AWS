@@ -28,4 +28,10 @@
 - **Amazon Route Tables**  
   Define how network traffic is directed within the VPC.  
   - **Public Route Table**: Routes traffic from public subnets to the Internet Gateway.  
-  - **Private Route Table**: Routes traffic from private subnets through the NAT Gateway for secure outbound internet access.  
+  - **Private Route Table**: Routes traffic from private subnets through the NAT Gateway for secure outbound internet access.
+ 
+    
+
+ 
+
+
