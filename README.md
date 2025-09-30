@@ -5,7 +5,7 @@ It is designed to demonstrate how to deploy cloud resources using **Infrastructu
 
 # 🔑 Key Features
 
-- **Infrastructure as Code (IaC): Define infrastructure in .tf files instead of manual clicks.
+- **Infrastructure as Code (IaC)**: Define infrastructure in .tf files instead of manual clicks.
 
 - **Multi-Cloud Support**: Works with AWS, Azure, GCP, Kubernetes, and hundreds of other providers.
 
