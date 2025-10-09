@@ -1,4 +1,4 @@
-#EC2Tag.tf
+###single-ec2tag file
 
 provider "aws" {
   region = "us-east-1"
